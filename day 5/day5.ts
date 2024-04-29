@@ -1,13 +1,15 @@
 // Q13 - Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
-console.log("\n\tQuestion 13");
+console.log(`\n\t\ Question 13
+---------------------------------`);
 let transportation : string [] = ["Honda motorcycle", "Civic", "Audi" , "Prado"];
 transportation.forEach(mode=>{
     console.log(`I would like to own a ${mode}.`)
 });
 
 // Q14 - Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
-console.log("\n\tQuestion 14");
-let GuestList: string[] = ["Aniza", "Maryam", "Aaish"];
+console.log(`\n\t\ Question 14
+---------------------------------`);
+var GuestList: string[] = ["Aniza", "Maryam", "Aaish"];
 
 GuestList.forEach(guest => {
     console.log(`Dear ${guest}, You are invited to dinner at my place.`);
@@ -17,9 +19,10 @@ GuestList.forEach(guest => {
 > Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
 > Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 > Print a second set of invitation messages, one for each person who is still in your list. */
-console.log("\n\tQuestion 15");
+console.log(`\n\t\ Question 15
+---------------------------------`);
 
-let notAttend : string = "Maryam";
+var notAttend : string = "Maryam";
 console.log(`${notAttend} cannot attend the dinner\n`)
 GuestList.splice(1,1,"Muniba");
 console.log("\nSecond set of invitation messages:");
